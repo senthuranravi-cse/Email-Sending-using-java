@@ -19,8 +19,8 @@ public class javasendmail{
 	prope.put("mail.smtp.host", "smtp.gmail.com");
 	prope.put("mail.smtp.port","587");
 	
-	String username="demopanther56@gmail.com";
-	String password="panther%56";
+	String username="Enter your E-mail";
+	String password="Enter your password";
 	
 	Session session=Session.getInstance(prope,new Authenticator() {
 		@Override
